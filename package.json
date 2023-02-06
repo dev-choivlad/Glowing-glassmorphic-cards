@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/dev-choivlad/Glowing-glassmorphic-cards"
   },
-  "homepage": "",
+  "homepage": "https://dev-choivlad.github.io/glowing-glassmorphic-cards",
   "keywords": [
     "Gulp",
     "JS",
