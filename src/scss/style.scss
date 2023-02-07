@@ -62,9 +62,18 @@ body {
 		width: calc(100% - 5.625rem);
 	}
 
-	&::before,
-	&::after {
-		background: linear-gradient(315deg, #03a9f4, #ff0058)
+	&:nth-child(1)::before,
+	&:nth-child(1)::after {
+		background: linear-gradient(315deg, #03a9f4, #ff0058);
+	}
+
+	&:nth-child(2)::before,
+	&:nth-child(2)::after {
+		background: linear-gradient(315deg, #ffbc00, #ff0058)
+	}
+	&:nth-child(3)::before,
+	&:nth-child(3)::after {
+		background: linear-gradient(315deg, #4dff03, #00d0ff);
 	}
 
 	span {
